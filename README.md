@@ -18,15 +18,43 @@ SEO (Search Engine Optimization) adalah praktik mengoptimalkan website agar muda
 
 ### Praktikum 2 : Menambahkan Favicon
 1. Siapkan file favicon (format .ico) dan letakkan di folder public/.
+
+   ![alt text](<img/favicon.ico.png>)
+
 2. Hapus faveicon.ico yang ada di folder **src/app**
+
+   ![alt text](<img/hapusFavicon.png>)
+
 3. Update file src/components/layout.tsx untuk menambahkan favicon:
+
+   ![alt text](<img/components.png>)
+
 4. Simpan dan jalankan proyek. Favicon akan muncul di tab browser.
 
+   ![alt text](<img/camelicon.png>)
+   
 ### Praktikum 3 : Menambahkan Metadata untuk SEO 
 1. Buat file src/utils/metadata.ts untuk menyimpan metadata default:
+
+   ![alt text](<img/metadata.png>)
+
 2. Update file src/components/layout.tsx untuk menggunakan metadata default jika tidak ada metadata yang di-pass:
+
+   ![alt text](<img/updateComp.png>)
+
 3. Update Setiap Halaman untuk dapat mem-pass definisi metadata Contoh Halaman “Tentang Saya”
+
+   ![alt text](<img/metadatasaya.png>)
+
 4. Lanjutkan untuk halaman Proyek dan Esai 
+
+   * Halaman Proyek
+     
+      ![alt text](<img/metadataproject.png>)
+
+   * Halaman Esai
+     
+      ![alt text](<img/metadataesai.png>)
 
 ### Praktikum 4 : Open Graph Tags untuk Media Sosial 
 1. Pastikan Anda telah menambahkan Open Graph Tags di layout.tsx seperti yang telah dijelaskan sebelumnya.
